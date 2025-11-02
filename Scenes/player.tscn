@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbocxh517g6jj"]
+
+[ext_resource type="Script" uid="uid://dlvgfm1bljojv" path="res://Scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://327v7y0jacx1" path="res://Assets/PNG/player_temp.png" id="1_v0iea"]
+[ext_resource type="PackedScene" uid="uid://bw7x8pepak5a7" path="res://Scenes/wall_dust.tscn" id="2_6t5aa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cvnsp"]
+size = Vector2(32, 32)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_cvnsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_v0iea")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_cvnsp")
+
+[node name="CoyoteTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 0.1
+one_shot = true
+
+[node name="JumpBufferTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 0.12
+one_shot = true
+
+[node name="HeadNudgeLeftOne" type="RayCast2D" parent="."]
+position = Vector2(-15, -15)
+target_position = Vector2(0, -3)
+hit_from_inside = true
+
+[node name="HeadNudgeLeftTwo" type="RayCast2D" parent="."]
+position = Vector2(-12, -15)
+target_position = Vector2(0, -3)
+hit_from_inside = true
+
+[node name="HeadNudgeRightOne" type="RayCast2D" parent="."]
+position = Vector2(15, -15)
+target_position = Vector2(0, -3)
+hit_from_inside = true
+
+[node name="HeadNudgeRightTwo" type="RayCast2D" parent="."]
+position = Vector2(12, -15)
+target_position = Vector2(0, -3)
+hit_from_inside = true
+
+[node name="LedgeHopRightOne" type="RayCast2D" parent="."]
+position = Vector2(15, 14)
+target_position = Vector2(3, 0)
+hit_from_inside = true
+
+[node name="LedgeHopRightTwo" type="RayCast2D" parent="."]
+position = Vector2(15, 5)
+target_position = Vector2(3, 0)
+hit_from_inside = true
+
+[node name="LedgeHopLeftOne" type="RayCast2D" parent="."]
+position = Vector2(-15, 14)
+target_position = Vector2(-3, 0)
+hit_from_inside = true
+
+[node name="LedgeHopLeftTwo" type="RayCast2D" parent="."]
+position = Vector2(-15, 5)
+target_position = Vector2(-3, 0)
+hit_from_inside = true
+
+[node name="WallDustRight" parent="." instance=ExtResource("2_6t5aa")]
+position = Vector2(16, 0)
+emitting = false
+
+[node name="WallDustLeft" parent="." instance=ExtResource("2_6t5aa")]
+position = Vector2(-16, 0)
+emitting = false
