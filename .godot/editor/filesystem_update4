@@ -1,4 +1,2 @@
-res://Scenes/game.tscn
 res://Scenes/player.tscn
-res://Scenes/temp_tile_map_layer.tscn
-res://Scenes/wall_dust.tscn
+res://export_presets.cfg
