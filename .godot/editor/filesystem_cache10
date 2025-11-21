@@ -1,9 +1,9 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763750178
-export_presets.cfg::TextFile::-1::1763750178::0::1::::<><><>0<>0<><>::
-index.apple-touch-icon.png::CompressedTexture2D::9169002408414416810::1763750177::1763750209::1::::<><><>0<>0<>1a2cef616b55f3485742cc5ec6f7fcab<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
-index.icon.png::CompressedTexture2D::3886448919518156273::1763750177::1763750209::1::::<><><>0<>0<>d06e7227dda83b7ea338a787d788968f<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
-index.png::CompressedTexture2D::8138508782087598380::1763750177::1763750209::1::::<><><>0<>0<>4848c13a9f8f602ee8beef50584cfbf7<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+::res://::1763750550
+export_presets.cfg::TextFile::-1::1763750550::0::1::::<><><>0<>0<><>::
+index.apple-touch-icon.png::CompressedTexture2D::7914608137051538714::1763750549::1763750561::1::::<><><>0<>0<>f60016f65d3d0fd1db78d424836e52fc<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D::4158778570636542171::1763750549::1763750561::1::::<><><>0<>0<>aeeb7eaeab6c784f172133723ebeab6e<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.png::CompressedTexture2D::2989695193134566615::1763750549::1763750561::1::::<><><>0<>0<>7d89710944c48e9e9bc0b8b27d16d8c5<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
 README.md::TextFile::-1::1763655295::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1763655295
 ::res://Assets/Background/::1763484814
@@ -96,8 +96,8 @@ dash_strike.tscn::PackedScene::1360641617194799109::1763657207::0::1::::<><><>0<
 player.tscn::PackedScene::7258515105751457191::1763666303::0::1::::<><><>0<>0<><>::uid://dfhutr60wutgc::::res://Scripts/Player/player.gd<>uid://c0vsj2mex11rn::::res://Assets/Player/player_sprite_sheet.png<>uid://cm2qk1u4ps3qn::::res://Scripts/Player/player_idle_state.gd<>uid://ccmsl3hn6pt17::::res://Scripts/Components/state_machine.gd<>uid://d08dojrdgk7o::::res://Scripts/Player/player_walk_state.gd<>uid://8hcm3busisjt::::res://Scripts/Player/player_jump_state.gd<>uid://cs3uqoc4yd6si::::res://Scripts/Player/player_air_state.gd<>uid://d271mdjdom470::::res://Assets/Player/player_head.png<>uid://bis2qlftmyus5::::res://Scripts/Player/player_wall_slide_state.gd<>uid://brxygfkjpbb6c::::res://Scripts/Player/player_wall_jump_state.gd<>uid://qq4odr15se45::::res://Scenes/Player/weapon.tscn<>uid://cq1tadttthn8h::::res://Scripts/Player/player_dash_state.gd<>uid://cbvn561d7kp2c::::res://Scripts/Player/player_death_state.gd<>uid://bg4v14wuqkcnp::::res://Scenes/Components/healthbox_component.tscn<>uid://tndtll7cpp4x::::res://Scenes/Player/dash_strike.tscn<>uid://dlxenxeltbjsh::::res://Scripts/Components/health_component.gd
 player_ghost_effect.tscn::PackedScene::4493218859130347240::1763655295::0::1::::<><><>0<>0<><>::uid://bbujkjgnr3wh8::::res://Assets/Player/player_ghost_effect.png<>uid://6s16fwiewr1y::::res://Scripts/Player/player_ghost_effect.gd
 weapon.tscn::PackedScene::1157837521232220280::1763655295::0::1::::<><><>0<>0<><>::uid://b8qh65nn7yx0o::::res://Scripts/Player/weapon.gd<>uid://83ncefgtdekp::::res://Assets/Player/player_weapon.png
-::res://Scenes/System/::1763750161
-game_manager.tscn::PackedScene::7073256274654761771::1763750161::0::1::::<><><>0<>0<><>::uid://bwdy5mdv4oysq::::res://Scripts/System/game_manager.gd<>uid://dbocxh517g6jj::::res://Scenes/Player/player.tscn<>uid://b2cun3himkt4o::::res://Scenes/GUI/splash_screen.tscn
+::res://Scenes/System/::1763750540
+game_manager.tscn::PackedScene::7073256274654761771::1763750540::0::1::::<><><>0<>0<><>::uid://bwdy5mdv4oysq::::res://Scripts/System/game_manager.gd<>uid://dbocxh517g6jj::::res://Scenes/Player/player.tscn<>uid://b2cun3himkt4o::::res://Scenes/GUI/splash_screen.tscn
 ::res://Scenes/System/Camera/::1763678315
 room_zone_area.tscn::PackedScene::4797869535066147053::1763672589::0::1::::<><><>0<>0<><>::uid://bkm6atbucvq8j::::res://Scripts/System/Camera/room_zone_area.gd
 room_zone_camera.tscn::PackedScene::5497405259457995505::1763678315::0::1::::<><><>0<>0<><>::uid://q78bagmut14j::::res://Scripts/System/Camera/room_zone_camera.gd

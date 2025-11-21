@@ -29,4 +29,4 @@ res://Scenes/Player/player_ghost_effect.tscn::d21b68b89e94f9bbd26aa3ede38c40da::
 res://Scenes/Player/weapon.tscn::367f1ecc241741deadbe8678b42aa36c::1763655295::res://.godot/exported/133200997/export-bcddad489bf98fa2371225128d45be77-weapon.scn
 res://Scenes/System/Camera/room_zone_area.tscn::2a80174499ca9ba471ef8094a001746f::1763672589::res://.godot/exported/133200997/export-9b2cdcf6bd5ed7aa9a10ed7d212ce206-room_zone_area.scn
 res://Scenes/System/Camera/room_zone_camera.tscn::de0889cbeec5a3b89f8b0f712b256088::1763678315::res://.godot/exported/133200997/export-a32054e03d708eb160c5adb644d072a7-room_zone_camera.scn
-res://Scenes/System/game_manager.tscn::cd70e7fb8ffc729b084cd861a596688f::1763750161::res://.godot/exported/133200997/export-9957c37fe9863c315221cf17e58749fc-game_manager.scn
+res://Scenes/System/game_manager.tscn::cd70e7fb8ffc729b084cd861a596688f::1763750540::res://.godot/exported/133200997/export-9957c37fe9863c315221cf17e58749fc-game_manager.scn
