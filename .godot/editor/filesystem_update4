@@ -1,2 +1,12 @@
-res://Scenes/player.tscn
-res://export_presets.cfg
+res://Scenes/Enemy/Boar/Boar.tscn
+res://Scenes/Levels/playtest_world_three.tscn
+res://Scenes/Levels/playtest_world_one.tscn
+res://Scenes/Levels/playtest_world_two.tscn
+res://Scenes/Interactable/help_sign.tscn
+res://Assets/Themes/main_theme.tres
+res://Scenes/GUI/splash_screen.tscn
+res://Scripts/GUI/splash_screen.gd
+res://Scenes/System/game_manager.tscn
+res://Scripts/Player/weapon.gd
+res://Scripts/System/global.gd
+res://Scripts/System/game_manager.gd
