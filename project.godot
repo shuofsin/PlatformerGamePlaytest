@@ -13,19 +13,19 @@ config_version=5
 config/name="PlatformerGame"
 run/main_scene="uid://c71lq6a52btg2"
 config/features=PackedStringArray("4.5", "Forward Plus")
-boot_splash/show_image=false
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="uid://d10f6rmn1pr46"
 config/icon="uid://b5581jsuiwpkd"
 
 [autoload]
 
-Global="*res://Scripts/System/global.gd"
-FadeTransition="*res://Scenes/GUI/fade_transition.tscn"
+Global="*res://Script/System/global.gd"
 
 [display]
 
 window/stretch/mode="viewport"
-window/stretch/aspect="expand"
-window/vsync/vsync_mode=0
+window/stretch/scale=0.51
+window/stretch/scale_mode="integer"
 
 [global_group]
 
